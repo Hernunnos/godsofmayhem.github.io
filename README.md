@@ -14,3 +14,5 @@ We'd like to thank <a href="http://freecodecamp.com/" target="_blank" name="Free
 If you would like to get involved in our project please remember our target audience before submitting push requests.
 
 Thank you and happy hacking!
+
+Template Credit: <a href="http://andreagalanti.it/flatfy">Flatfy</a>
