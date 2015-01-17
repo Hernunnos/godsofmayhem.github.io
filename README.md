@@ -3,9 +3,9 @@ godsofmayhem.github.io
 
 Our hacker website
 
-We are the Gods of Mayhem. We are looking to <a href="http://www.hackreactor.com/blog/want-to-start-a-coding-school-want-a-coding-school-in-your-hometown-check-out-hack-reactor-extensions?utm_source=master+list_segmented&utm_campaign=20459be833-Extension+Announcement_11.3.14&utm_medium=email&utm_term=0_3eb95f6109-20459be833-85364681" target="_blank" name="Hack Reactor Extension">bring Hack Reactor</a> here to Phoenix, AZ.
+We are the Gods of Mayhem. We are looking to make you WATCH eSports.
 
-We wish to start-up a social enterprise to provide resources to teach people the basic knowledge needed to start learning how to code. Our website target audience will be women, minorities, students with HIGH student loan debt and eSports enthusiasts.  
+We wish to start-up a social enterprise to provide resources to teach people the basic knowledge needed to start learning how to code with an emphasis on <a href="http://www.forbes.com/sites/berlinschoolofcreativeleadership/2015/01/16/future-of-edtech-101-automation-curation-and-gamification/">gamification</a>. Our website target audience will be women, minorities, students with HIGH student loan debt and eSports enthusiasts.  
 
 *For example, people who have completed or have been in a degree program (i.e. game developers) who are still unable to find suitable employment.
 
