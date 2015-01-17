@@ -1,137 +1,447 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+ <!-- FlatFy Theme - Andrea Galanti /-->
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Learn how to develop your own web apps!">
+    <meta name="author" content="Lopter-Sigyn">
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+     <title>godsofmayhem.github.io by Gods of Mayhem</title>
+     
+    <!-- Outdated Browser --> 
+    <link rel="stylesheet" href="css/outdatedBrowser.min.css">
 
-    <title>godsofmayhem.github.io by Gods of Mayhem</title>
-  </head>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+ 
+    <!-- Custom Google Web Font -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+	
+    <!-- Custom CSS-->
+    <link href="css/general.css" rel="stylesheet">
+	
+	 <!-- Owl-Carousel -->
+    <link href="css/custom.css" rel="stylesheet">
+	<link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	
+	<!-- Magnific Popup core CSS file -->
+	<link rel="stylesheet" href="css/magnific-popup.css"> 
+	
+	<script src="js/modernizr-2.6.2.min.js"></script>  <!-- Modernizr /-->
+	<script src="js/PIE_IE9.js"></script>  
+	<script src="js/PIE_IE678.js"></script>  
+	1
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+	<![endif]-->
 
-  <body>
+</head>
 
-    <header>
-      <div class="container">
-        <h1>godsofmayhem.github.io</h1>
-        <h2>Our hacker website</h2>
+<body id="home">
 
-        <section id="downloads">
-          <a href="http://godsofmayhem.com/" class="btn">Homepage</a>
-          <a href="https://plus.google.com/+GodsofmayhemCo/" class="btn">Google+</a>
-          <a href="http://dotfiles.github.io/" class="btn">dotfiles</a>
-          <a href="http://freecodecamp.com/" class="btn">Free Code Camp</a>
-          <a href="http://vimeopro.com/appcelerator/zero-to-app" class="btn">Zero to App</a>
-        </section>
-      </div>
-    </header>
+    <!-- ========================Outdated Browser ============= -->
+    <div id="outdated"></div>
+    
+	<!-- Preloader -->
+	<div id="preloader">
+		<div id="status"></div>
+	</div>
+	
+	<!-- FullScreen -->
+    <div class="intro-header">
+		<div class="col-xs-12 text-center abcen1">
+			<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">Gods of Mayhem Hacker School</h1>
+			<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">Start building web apps for free!</h3>
+			<ul class="list-inline intro-social-buttons">
+				<li><a href="https://twitter.com/godsofmayhem" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Twitter</span></a>
+				</li>
+				<li id="download" ><a href="https://www.dartlang.org/tools/download.html" class="btn  btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name">Dart + Editor Download</span></a>
+				</li>
+			</ul>
+		</div>    
+        <!-- /.container -->
+		<div class="col-xs-12 text-center abcen wow fadeIn">
+			<div class="button_down "> 
+				<a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#whatis"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
+			</div>
+		</div>
+    </div>
+	
+	<!-- NavBar-->
+	<nav class="navbar-default" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#home">Gods of Mayhem</a>
+			</div>
 
-    <div class="container">
-      <section id="main_content">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Our Founder has a Dream</h3>
+			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					
+					<li class="menuItem"><a href="#whatis">What is here?</a></li>
+					<li class="menuItem"><a href="#useit">Next Steps</a></li>
+					<li class="menuItem"><a href="#credits">Credits</a></li>
+					<li class="menuItem"><a href="#contact">Template Creator</a></li>
+				</ul>
+			</div>
+		   
+		</div>
+	</nav> 
+	
+	<!-- What is -->
+	<div id="whatis" class="content-section-b" style="border-top: 0">
+		<div class="container">
 
-<p>In this dream geeks, gamers, dorks, nerds, people who LOVE to play games which require thought, can turn on the telly and see THEIR version of a Super Bowl.  Where steroids have NO place in competition (unless you have really BAD allergies - think Advair, Flonase, Proair, etc).  Jocks have their place in the world (not ALL of them are bad) we want ours!</p>
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>What is here?</h2>
+				<p class="lead" style="margin-top:0">Learn how to create your own... Just click the icon!</p>
+				
+			</div>
+			
+			<div class="row">
+			
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <a href="http://www.codeavengers.com/"><img class="rotate" src="img/icon/ca.png" alt="Code Avengers"></a>
+				  <h3>Code Avengers</h3>
+				  <p class="lead">Learn to build websites, apps and games. Bring your ideas to life with HTML, CSS & JavaScript.</p>
 
-<p>If Rammstein did code, it would probably look like this:</p>
+				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <a href="http://designschool.canva.com/"><img  class="rotate" src="img/icon/picture.svg" alt="Canva Design School"></a>
+				   <h3>Design School</h3>
+				   <p class="lead">Fast-track your ability to create amazing designs by completing the Design Essentials tutorials course.</p>
+				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <a href="http://www.staticapps.org/"><img  class="rotate" src="img/icon/retina.svg" alt="Field Guide: Static Apps"></a>
+				   <h3>Field Guide: Static Apps</h3>
+					<p class="lead">This guide will introduce you to the world of static web applications and offer solutions to common challenges encountered while building them.</p>
+				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+			</div><!-- /.row -->
+				
+			<div class="row tworow">
+			
+				<div class="col-sm-4  wow fadeInDown text-center">
+				  <a href="https://www.edx.org/course/introduction-linux-linuxfoundationx-lfs101x-2"><img class="rotate" src="img/icon/laptop.svg" alt="Linux 101"></a>
+				  <h3>Linux 101</h3>
+				  <p class="lead">Develop a good working knowledge of Linux using both the graphical interface and command line, covering the major Linux distribution families.</p>
+				 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <a href="http://superherojs.com/"><img  class="rotate" src="img/icon/map.svg" alt="Superhero.JS"></a>
+				   <h3>Superhero.JS</h3>
+				   <p class="lead">This page is a continuously updated list of articles that help explain the syntax of JavaScript, how to organize your projects, how to test your code, and what’s on the horizon. </p>
+				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <a href="https://hackdesign.org/"><img  class="rotate" src="img/icon/browser.svg" alt="Hack Design"></a>
+				   <h3>Hack Design</h3>
+				 <p class="lead">An easy to follow design course for people who do amazing things. Learn at your own pace. With articles, videos, and tutorials curated by some of the world's best designers , there's no easier way to learn design this year.</p>
+				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+			</div><!-- /.row -->
+		</div>
+	</div>
+	
+	<!-- Use it -->
+    <div id ="useit" class="content-section-a">
 
-<pre><code>do
-do class
-do class if.
-do
-do class
-do class if.
+        <div class="container">
+			
+            <div class="row">
+			
+				<div class="col-sm-6 pull-right wow fadeInRightBig">
+                    <img class="img-responsive " src="img/ipad.png" alt="">
+                </div>
+				
+                <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
+                    <h3 class="section-heading">30 day Challenge</h3>
+					<div class="sub-title lead3">30 Days. 30 Steps.</div>
+                    <p class="lead">
+						Want to create things for a living? 2015 is the year. The first step is building your audience, and with Gumroad's help, we’ll show you how.
+					</p>
 
-do!
-do class!
-do class if
-do class if!
-do class if inline
-do class if inline
-do class if inline
-bool this delete define!
-
-this do int break sizeof public
-try if struct for auto static...
-while!
-while!
-</code></pre>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Gamer Inspired App Designs</h3>
-
-<p>We've been working on a few different ideas like:</p>
-<ul>
-  <li>eSports team management software suite with modules to include recruitment, stats/analytics for spaonsorship consideration, tournanment rounds for training and more. (i.e. <a href="http://gameseekeronline.com/" name="Game Seeker Online" target="_blank">Game Seeker Online</a> with an eSports version of <a href="http://esportsdesk.com" target="_blank">eSportsDesk</a> <i>they've had the domain since before eSports had a REAL name other than playing with your friends online and they are very knowledgeable on the creation of Sports Associations and Tournament development.</i></li>
-  <li>Gamers, Geeks and Gods: a game center which would include a portal website interface to get in on what was happening at the locale (i.e. Magic Tournaments) or other live action such as comedians or other <a href="https://www.youtube.com/watch?v=JO6eydRPpyU" target="_blank">Nerdy performers</a>.</li>
-  <li>Along with other applications to take game stores like <a href="https://popcultureparadise.popshop.comixology.com/" target="_blank">Pop Culture Paradise</a> and <a href="http://howies.com" target="_blank">Howie's Game Shack</a> to the next level for example: <a href="http://heartv.com">HearTV</a>.</li>
-</ul>
-
-<h3>
-<a name="long-way-home" class="anchor" href="#long-way-home"><span class="octicon octicon-link"></span></a>Take The Long Way Home</h3>
-
-<object width="420" height="315"><param name="movie" value="//www.youtube.com/v/HfApBz4_XQk?version=3&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/HfApBz4_XQk?version=3&amp;hl=en_US" type="application/x-shockwave-flash" width="420" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
-<p><em>Does it feel that you life's become a catastrophe?</br>
-Oh, it has to be for you to grow, boy</br>
-And when you look through the years</br>
-And see what you could have been</br>
-Oh, what might have been</br>
-If you'd had more time</em></p>
-
-<p>Never stop learning how to play a game, have fun and take the long way home.</p>
-
-<h3>
-<a name="open-source-contributors" class="anchor" href="#open-source-contributors"><span class="octicon octicon-link"></span></a>Open Source: Authors and Contributors</h3>
-
-<h4>Source code for iOS games on github</h4>
-<ul>
-  <li><a href="https://itunes.apple.com/app/2048-and-more!/id848859070" target="_blank">2048</a> - A SpriteKit based version of the game 2048 <a href="https://github.com/ik/2048" target="_blank">source code</a></li>
-
-  <li><a href="http://itunes.apple.com/us/app/castle-hassle/id524566068?mt=8" target="_blank">Castle Hassle</a> - <a href="http://itunes.apple.com/us/app/castle-hassle/id524566068?mt=8" target="_blank">iTunes</a> - <a href="https://github.com/bryceredd/CastleHassle" target="_blank">source code</a></li>
-
-  <li><a href="http://itunes.apple.com/us/app/castle-hassle/id524566068?mt=8" target="_blank">Aeropack</a> - A steampunk themed retro-platform game created using GameSalad. <a href="http://itunes.apple.com/app/aeropack-steampunk-retro-platformer/id354566515?mt=8" target="_blank">iTunes</a> - <a href="https://github.com/insurgentgames/Aeropack" target="_blank">source code</a></li>
-
-  <li><a href="http://itunes.apple.com/app/alphabet-blocks/id328035268?mt=8" target="_blank">Alphabet Blocks</a> - An educational toy featuring letter blocks created with using Cocos2D. <a href="http://itunes.apple.com/app/alphabet-blocks/id328035268?mt=8" target="_blank">iTunes</a> - <a href="https://github.com/insurgentgames/Alphabet-Blocks" target="_blank">source code</a></li>
-
-  <li><a href="http://itunes.apple.com/app/canabalt/id333180061?mt=8" target="_blank">Canabalt</a> - Popular run and jump type game. <a href="http://itunes.apple.com/app/canabalt/id333180061?mt=8" target="_blank">iTunes</a> - <a href="https://github.com/ericjohnson/canabalt-ios" target="_blank">source code</a></li>
-
-  <li><a href="http://itunes.apple.com/app/clearis/id473594823?mt=8" target="_blank">Clearis</a> - Cocos2D based puzzle game. <a href="http://itunes.apple.com/app/clearis/id473594823?mt=8" target="_blank">iTunes</a> - <a href="http://dl.dropbox.com/u/30871449/Website/Resource/2011/10/Clearis/Clearis.zip" target="_blank">source code</a></li>
-
-  <li><a href="http://maniacdev.com/fra" target="_blank">Climbers</a> - 2D finger dragging climbing game created with Cocos2D. <a href="http://maniacdev.com/fra" target="_blank">iTunes</a> - <a href="https://github.com/haqu/climbers" target="_blank">source code</a></li>
-
-  <li><a href="http://itunes.apple.com/app/cryptose/id368874791?mt=8" target="_blank">Cryptose</a> - A cryptogram puzzle game made with the Marmalade (formerly Airplay) SDK. <a href="http://itunes.apple.com/app/cryptose/id368874791?mt=8" target="_blank">iTunes</a> - <a href="https://github.com/insurgentgames/Cryptose" target="_blank">source code</a></li>
-
-  <li><a href="http://maniacdev.com/ucp" target="_blank">Gorillas</a> – Classic Worms/iShoot turn based shooter type game converted to iPhone from basic. Utilizes Cocos2D. <a href="http://maniacdev.com/ucp" target="_blank">iTunes</a> - <a href="https://github.com/Lyndir/Gorillas" target="_blank">source code</a></li>
-
-  <li><a href="http://itunes.apple.com/app/ilabyrinth/id380886785?mt=8" target="_blank">iLabyrinth</a> - Puzzle game written in Cocos2D requiring you to navigate through increasingly difficult labyrinths. <a href="http://itunes.apple.com/app/ilabyrinth/id380886785?mt=8" target="_blank">iTunes</a> - <a href="https://github.com/ud7/iLabyrinth" target="_blank">source code</a></li>
-
-  <li><a href="http://itunes.apple.com/app/little-go/id490753989?mt=8" target="_blank">Little Go</a> - An iOS version of the game of Go featuring a tough AI opponent. <a href="http://itunes.apple.com/app/little-go/id490753989?mt=8" target="_blank">iTunes</a> - <a href="http://www.herzbube.ch/category/article-styles/project-page" target="_blank">source code</a></li>
-
-  <li><a href="https://itunes.apple.com/app/pterodactyl-attack/id786862892" target="_blank">Pteradactyl Attack</a> - An iOS version of the game of Go featuring a tough AI opponent. <a href="https://itunes.apple.com/app/pterodactyl-attack/id786862892" target="_blank">iTunes</a> - <a href="https://github.com/shaunlebron/PterodactylAttack" target="_blank">source code</a></li>
-
-  <li><a href="https://itunes.apple.com/app/seven-bridges/id586598714" target="_blank">Seven Bridges</a> – A puzzle game requiring the player to cross bridges within a specified number of turns. <a href="https://itunes.apple.com/app/seven-bridges/id586598714" target="_blank">iTunes</a> - <a href="https://github.com/zgrossbart/bridges" target="_blank">source code</a></li>
-</ul>
-
-<h3>
-<a name="code-contact" class="anchor" href="#code-contact"><span class="octicon octicon-link"></span></a>Wanna Code with Us?</h3>
-
-<p>Currently, we do NOT have funded position(s).</p>
-<p>*<em>However, if you want to help us out, contact <a href="mailto:info@godsofmayhem.com">info@godsofmayhem.com</a> and we’ll see what we can figure out.</em></p>
-      </section>
+					 <p><a class="btn btn-embossed btn-primary" href="https://player.vimeo.com/video/115605022?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" role="button">View Video</a> 
+					 <a class="btn btn-embossed btn-info" href="https://gumroad.com/30daychallenge" role="button">Visit Website</a></p>
+				</div>   
+            </div>
+        </div>
+        <!-- /.container -->
     </div>
 
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-7695127-7");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
+    <div class="content-section-b"> 
+		
+		<div class="container">
+            <div class="row">
+                <div class="col-sm-6 wow fadeInLeftBig">
+                     <div id="owl-demo-1" class="owl-carousel">
+						<a href="img/iphone.png" class="image-link">
+							<div class="item">
+								<img  class="img-responsive img-rounded" src="img/iphone.png" alt="iphone">
+							</div>
+						</a>
+						<a href="img/iphone.png" class="image-link">
+							<div class="item">
+								<img  class="img-responsive img-rounded" src="img/iphone.png" alt="iphone">
+							</div>
+						</a>
+						<a href="img/iphone.png" class="image-link">
+							<div class="item">
+								<img  class="img-responsive img-rounded" src="img/iphone.png" alt="iphone">
+							</div>
+						</a>
+					</div>       
+                </div>
+				
+                <div class="col-sm-6 wow fadeInRightBig"  data-animation-delay="200">   
+                    <h3 class="section-heading">Principal of Mobile Site Design</h3>
+					<div class="sub-title lead3">Consumers increasingly rely on the mobile web to research and make purchases, which makes it more important than ever for companies to have an effective mobile presence. <br>But what makes a good mobile site? </div>
+                    <p class="lead">
+						To answer this question, Google partnered with AnswerLab to research how a range of users interacted with a diverse group of mobile sites. From this research, Google established 25 principles of mobile site design to help companies build mobile sites that delight customers and drive conversions.
+					</p>
 
-  </body>
+					 <p><a class="btn btn-embossed btn-primary" href="http://www.google.com/intl/ALL_ALL/think/multiscreen/pdf/multi-screen-moblie-whitepaper_research-studies.pdf" role="button">View PDF</a> 
+					 <a class="btn btn-embossed btn-info" href="http://www.google.com/think/multiscreen/whitepaper-sitedesign.html" role="button">Visit Website</a></p>
+				</div>  			
+			</div>
+        </div>
+    </div>
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+             <div class="row">
+			 
+				<div class="col-sm-6 pull-right wow fadeInRightBig">
+                    <img class="img-responsive " src="img/doge.png" alt="">
+                </div>
+			 
+                <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
+                    <h3 class="section-heading">OverAPI</h3>
+                    <p class="lead">This lets you have several Cheat sheets for your purposes. 
+					</p>
+					
+					<ul class="descp lead2">
+						<li><a href="http://overapi.com/developer-tools"><i class="glyphicon glyphicon-signal"></i> Developer Tool s>></a></li>
+						<li><a href="https://chrome.google.com/webstore/detail/all-cheat-sheets/oedodeocfdeegliepeeoieemhdgoijod"><i class="glyphicon glyphicon-refresh"></i> Get Chrome Extension >></a></li>
+						<li><a href="http://overapi.com/"><i class="glyphicon glyphicon-headphones"></i> Get Cheat Sheets >></a></li>
+					</ul>
+				</div>           
+            </div>
+        </div>
+
+    </div>
+  <div  class="content-section-c ">
+    <div class="container">
+      <div class="row">
+      <div class="col-md-6 col-md-offset-3 text-center white">
+        <h2>Social Links</h2>
+        <p class="lead" style="margin-top:0">Connect With Us!</p>
+       </div>
+      <div class="col-md-6 col-md-offset-3 text-center">
+         <li class="social"> 
+          <a href="https://www.facebook.com/GodsofMayhem"><i class="fa fa-facebook-square fa-size"> </i></a>
+          <a href="https://twitter.com/godsofmayhem"><i class="fa  fa-twitter-square fa-size"> </i> </a> 
+          <a href="https://plus.google.com/+GodsofmayhemCo/"><i class="fa fa-google-plus-square fa-size"> </i></a>
+          </li>
+      </div>  
+      </div>
+    </div>
+  </div>  
+
+         
+		
+	<!-- Credits -->
+	<div id="credits" class="content-section-a">
+		<div class="container">
+			<div class="row">
+			
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>Credits</h2>
+				<p class="lead" style="margin-top:0">A special thanks to the people who have encouraged me along the way. Click the icons to check them out!</p>
+			 </div>
+			 
+				<div class="col-sm-6  block wow bounceIn">
+					<div class="row">
+						<div class="col-md-4 box-icon rotate"> 
+							<a href="http://freecodecamp.com"><i class="fa fa-desktop fa-4x "> </i> </a>
+						</div>
+						<div class="col-md-8 box-ct">
+							<h3> Free Code Camp </h3>
+							<p> Quincy Larson, a software engineer for online coding tutorial site Free Code Camp, shared his stressful and overwhelming experience trying to learn how to code. He and his staff are a great support system.  </p>
+						</div>
+				  </div>
+			  </div>
+			  <div class="col-sm-6 block wow bounceIn">
+					<div class="row">
+					  <div class="col-md-4 box-icon rotate"> 
+						<a href="http://piecedigital.x10host.com/"><i class="fa fa-picture-o fa-4x "> </i> </a>
+					  </div>
+					  <div class="col-md-8 box-ct">
+						<h3> Piece Digital </h3>
+						<p> Aspiring professional | Graphic/Web Design | Web Development | Social Media | Blogging | Gaming currently working on our logo design.</p> 
+					  </div>
+					</div>
+			  </div>
+		  </div>
+		  
+		  <div class="row tworow">
+				<div class="col-sm-6  block wow bounceIn">
+					<div class="row">
+						<div class="col-md-4 box-icon rotate"> 
+							<a href="http://grow.kickofflabs.com/"><i class="fa fa-magic fa-4x "> </i></a> 
+						</div>
+						<div class="col-md-8 box-ct">
+							<h3> Kickoff Labs </h3>
+							<p> Josh Ledgard and his staff saved our launch page from being a DISASTER! Instead of coding this important tool for your product launch.  Let Kickoff Labs help you go VIRAL! </p>
+						</div>
+				  </div>
+			  </div>
+			  <div class="col-sm-6 block wow bounceIn">
+					<div class="row">
+					  <div class="col-md-4 box-icon rotate"> 
+						<a href="http://ezequielbruni.com/"><i class="fa fa-heart fa-4x "> </i> </a>
+					  </div>
+					  <div class="col-md-8 box-ct">
+						<h3>Ezequiel Bruni</h3>
+						<p> UX Design. Blog Writer. Photographer. Without you I'd still be trying to find my voice to speak.</p> 
+					  </div>
+					</div>
+			  </div>
+		  </div>
+		</div>
+	</div>
+	
+	<!-- Banner Download -->
+	<div id="downloadlink" class="banner">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>Download This Template Free</h2>
+				<p class="lead" style="margin-top:0">Pay with a Tweet</p>
+				<p><a class="btn btn-embossed btn-primary view" role="button">Free Download</a></p> 
+			 </div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Contact -->
+	<div id="contact" class="content-section-a">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <h3 class="footer-title">Follow Andrea!</h3>
+            <p>Vuoi ricevere news su altri template?<br/>
+              Visita Andrea Galanti.it e vedrai tutte le news riguardanti nuovi Theme!<br/>
+              Go to: <a  href="http://andreagalanti.it" target="_blank">andreagalanti.it</a>
+            </p>
+			
+			<!-- LICENSE -->
+			<a rel="cc:attributionURL" href="http://www.andreagalanti.it/flatfy"
+		   property="dc:title">Flatfy Theme </a> by
+		   <a rel="dc:creator" href="http://www.andreagalanti.it"
+		   property="cc:attributionName">Andrea Galanti</a>
+		   is licensed to the public under 
+		   <BR>the <a rel="license"
+		   href="http://creativecommons.org/licenses/by-nc/3.0/it/deed.it">Creative
+		   Commons Attribution 3.0 License - NOT COMMERCIAL</a>.
+		   
+	   
+          </div> <!-- /col-xs-7 -->
+
+          <div class="col-md-5">
+            <div class="footer-banner">
+              <h3 class="footer-title">Flatfy Theme</h3>
+              <ul>
+                <li>12 Column Grid Bootstrap</li>
+                <li>Form Contact</li>
+                <li>Drag Gallery</li>
+                <li>Full Responsive</li>
+              </ul>
+              Go to: <a href="http://andreagalanti.it/flatfy" target="_blank">andreagalanti.it/flatfy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/script.js"></script>
+    <script src="js/outdatedbrowser.min.js"></script>
+    <!-- plugin call -->
+    <script>
+        //event listener form DOM ready
+        function addLoadEvent(func) {
+            var oldonload = window.onload;
+            if (typeof window.onload != 'function') {
+                window.onload = func;
+            } else {
+                window.onload = function() {
+                    if (oldonload) {
+                        oldonload();
+                    }
+                    func();
+                }
+            }
+        }
+        //call function after DOM ready
+        addLoadEvent(function(){
+            outdatedBrowser({
+                bgColor: '#f25648',
+                color: '#ffffff',
+                lowerThan: 'transform',
+                languagePath: 'lang/en.html'
+            })
+        });
+    </script>
+	<!-- StikyMenu -->
+	<script src="js/stickUp.min.js"></script>
+	<script type="text/javascript">
+	  jQuery(function($) {
+		$(document).ready( function() {
+		  $('.navbar-default').stickUp();
+		  
+		});
+	  });
+	
+	</script>
+	<!-- Smoothscroll -->
+	<script type="text/javascript" src="js/jquery.corner.js"></script> 
+	<script src="js/wow.min.js"></script>
+	<script>
+	 new WOW().init();
+	</script>
+	<script src="js/classie.js"></script>
+	<script src="js/uiMorphingButton_inflow.js"></script>
+	<!-- Magnific Popup core JS file -->
+	<script src="js/jquery.magnific-popup.js"></script> 
+    
+</body>
+
 </html>
